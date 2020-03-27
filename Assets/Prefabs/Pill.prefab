@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1291749298421036785}
   - component: {fileID: 1291749298421036784}
   - component: {fileID: 689447662948666270}
+  - component: {fileID: 2939352256975282292}
   m_Layer: 0
   m_Name: Pill
   m_TagString: Untagged
@@ -97,3 +98,29 @@ MonoBehaviour:
   lifetime: 0.8
   particles: {fileID: 6019173514245673808, guid: 6057b7453ae234f5e9fe5143a0f186fb,
     type: 3}
+--- !u!61 &2939352256975282292
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291749298421036787}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 3.7408915, y: 7.481964}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 45.600002, y: 71.920654}
+    newSize: {x: 45.600002, y: 71.920654}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 26.147364, y: 47.978333}
+  m_EdgeRadius: 0
