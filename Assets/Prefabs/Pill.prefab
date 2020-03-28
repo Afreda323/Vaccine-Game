@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1291749298421036785}
   - component: {fileID: 1291749298421036784}
   - component: {fileID: 689447662948666270}
-  - component: {fileID: 2939352256975282292}
+  - component: {fileID: 816404634517626250}
   m_Layer: 0
   m_Name: Pill
   m_TagString: Untagged
@@ -98,7 +98,8 @@ MonoBehaviour:
   lifetime: 0.8
   particles: {fileID: 6019173514245673808, guid: 6057b7453ae234f5e9fe5143a0f186fb,
     type: 3}
---- !u!61 &2939352256975282292
+  damage: 2
+--- !u!61 &816404634517626250
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,7 +112,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 3.7408915, y: 7.481964}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -122,5 +123,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 26.147364, y: 47.978333}
+  m_Size: {x: 45.600002, y: 71.920654}
   m_EdgeRadius: 0

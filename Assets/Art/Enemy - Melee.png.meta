@@ -1,0 +1,280 @@
+fileFormatVersion: 2
+guid: 0113124f3e92a4582a3223e21cf13ef7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8490787466247717561
+    second: Enemy - Melee_0
+  - first:
+      213: 7974519782911265911
+    second: Enemy - Melee_1
+  - first:
+      213: 3687751905091586645
+    second: Enemy - Melee_2
+  - first:
+      213: 3502484854842878260
+    second: Enemy - Melee_3
+  - first:
+      213: -1850334715712461197
+    second: Enemy - Melee_4
+  - first:
+      213: 1746749255494368891
+    second: Enemy - Melee_5
+  - first:
+      213: 4879587906480647022
+    second: Enemy - Melee_6
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemy - Melee_0
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1236
+        width: 552
+        height: 777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b165d8b6ff184fc5a075762d7e6b237
+      internalID: 8490787466247717561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy - Melee_1
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 1240
+        width: 1416
+        height: 1006
+      alignment: 9
+      pivot: {x: 0.49028662, y: 0.039709013}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f27a38d40b94e30a8fa34ac656131a
+      internalID: 7974519782911265911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy - Melee_2
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 557
+        width: 258
+        height: 1262
+      alignment: 9
+      pivot: {x: 0.49999905, y: 0.074954316}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be19002d037214b57ab9b63b3a642422
+      internalID: 3687751905091586645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy - Melee_3
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 563
+        width: 478
+        height: 501
+      alignment: 9
+      pivot: {x: 0.8644725, y: 0.8751937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88a1630cc1f64325ae4071a858fe596
+      internalID: 3502484854842878260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy - Melee_4
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 537
+        width: 442
+        height: 507
+      alignment: 9
+      pivot: {x: 0.13695943, y: 0.87979615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45860585a63443838b70b1c6dd38410
+      internalID: -1850334715712461197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy - Melee_5
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 566
+        width: 280
+        height: 411
+      alignment: 9
+      pivot: {x: 0.6964861, y: 0.8569584}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50ee9b31411e4c5eafd9f60abe1453e
+      internalID: 1746749255494368891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy - Melee_6
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 606
+        width: 318
+        height: 397
+      alignment: 9
+      pivot: {x: 0.18282026, y: 0.8464497}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9caf0aed7f847b697bca3c32b29adc
+      internalID: 4879587906480647022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: fc04af2e532fa44c18ed3d5453e38ae4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

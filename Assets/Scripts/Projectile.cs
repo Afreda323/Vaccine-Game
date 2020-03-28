@@ -7,6 +7,7 @@ public class Projectile : MonoBehaviour
     public float speed;
     public float lifetime;
     public GameObject particles;
+    public float damage;
 
     // Start is called before the first frame update
     void Start()
@@ -23,5 +24,14 @@ public class Projectile : MonoBehaviour
     private void OnDestroy()
     {
         Instantiate(particles, transform.position, Quaternion.identity);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Enemy"))
+        {
+            collision.GetComponent<Enemy>().TakeDamage(damage);
+            Destroy(gameObject);
+        }
     }
 }
