@@ -40,7 +40,6 @@ public class MeleeEnemy : Enemy
 
     void Attack()
     {
-        print("YO");
         animator.SetBool("isAttacking", true);
         player.GetComponent<Player>().TakeDamage(damage);
     }

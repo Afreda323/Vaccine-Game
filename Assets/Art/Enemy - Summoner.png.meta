@@ -1,7 +1,46 @@
 fileFormatVersion: 2
-guid: 329ab063f765d4174a3c468cb6c07de8
+guid: 5ec5f70c5b23e4ef8aead3570945df58
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4912292871881436246
+    second: Enemy - Summoner_0
+  - first:
+      213: 6437714811922321160
+    second: Enemy - Summoner_1
+  - first:
+      213: -432916295587229343
+    second: Enemy - Summoner_2
+  - first:
+      213: -2497556490481938367
+    second: Enemy - Summoner_3
+  - first:
+      213: -7014587065245960249
+    second: Enemy - Summoner_4
+  - first:
+      213: -7257203077703519533
+    second: Enemy - Summoner_5
+  - first:
+      213: 1004646578193096903
+    second: Enemy - Summoner_6
+  - first:
+      213: 2404269481189677336
+    second: Enemy - Summoner_7
+  - first:
+      213: 2364937766376141430
+    second: Enemy - Summoner_8
+  - first:
+      213: 5252373703639857809
+    second: Enemy - Summoner_9
+  - first:
+      213: 5735486190206510673
+    second: Enemy - Summoner_10
+  - first:
+      213: 6609953399765538636
+    second: Enemy - Summoner_11
+  - first:
+      213: -597137364002075922
+    second: Enemy - Summoner_12
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +79,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,13 +108,308 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Enemy - Summoner_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1589
+        width: 1135
+        height: 883
+      alignment: 9
+      pivot: {x: 0.46473694, y: 0.30169532}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a80eb1635db44fa8811130680f382f
+      internalID: 4912292871881436246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy - Summoner_1
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1820
+        width: 418
+        height: 689
+      alignment: 9
+      pivot: {x: 0.8351251, y: 0.90662456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b28840f60a14efdace3d470f599d42
+      internalID: 6437714811922321160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy - Summoner_2
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1198
+        width: 647
+        height: 1336
+      alignment: 9
+      pivot: {x: 0.87889344, y: 0.5973624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83050b0a67094624846f1d6209dd83c
+      internalID: -432916295587229343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy - Summoner_3
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 1231
+        width: 648
+        height: 1319
+      alignment: 9
+      pivot: {x: 0.10625015, y: 0.62516826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa851bc43c2b74e96adeb51883b05fe4
+      internalID: -2497556490481938367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy - Summoner_4
+      rect:
+        serializedVersion: 2
+        x: 3271
+        y: 2426
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d27da0c6be874afbb371077ab229ffe
+      internalID: -7014587065245960249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy - Summoner_5
+      rect:
+        serializedVersion: 2
+        x: 3801
+        y: 1552
+        width: 454
+        height: 936
+      alignment: 9
+      pivot: {x: 0.5550978, y: 0.061708108}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2537134181a41c7bfc7ce17ba2c05b
+      internalID: -7257203077703519533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy - Summoner_6
+      rect:
+        serializedVersion: 2
+        x: 3188
+        y: 1693
+        width: 418
+        height: 690
+      alignment: 9
+      pivot: {x: 0.12896816, y: 0.91328585}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb8086c01346493e8c6a37e80464a61
+      internalID: 1004646578193096903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy - Summoner_7
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 194
+        width: 1277
+        height: 1012
+      alignment: 9
+      pivot: {x: 0.4882468, y: 0.2824808}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee6b9d309efe419d8dc52c193388160
+      internalID: 2404269481189677336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy - Summoner_8
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 440
+        width: 501
+        height: 561
+      alignment: 9
+      pivot: {x: 0.4900141, y: 0.09869461}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e85b99c709c7409b897a98143b16b2c
+      internalID: 2364937766376141430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy - Summoner_9
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 625
+        width: 534
+        height: 195
+      alignment: 9
+      pivot: {x: 0.5187371, y: 0.679592}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f88510a663941008315a51ccdddd29
+      internalID: 5252373703639857809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy - Summoner_10
+      rect:
+        serializedVersion: 2
+        x: 3566
+        y: 506
+        width: 262
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c0a7d9dd20246238b1de0ee618720f
+      internalID: 5735486190206510673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy - Summoner_11
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 521
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d060d62f6e84e4eb4018c4c3e36372
+      internalID: 6609953399765538636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy - Summoner_12
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 269
+        width: 340
+        height: 152
+      alignment: 9
+      pivot: {x: 0.44114128, y: 0.8291403}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1f4e85d81a84efb9263535688b23e9
+      internalID: -597137364002075922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 1bb654d781e5845729ef2d6a3a4d2587
+    spriteID: 5baf5eb99a5c544d28b9658374fb1e2e
     internalID: 0
     vertices: []
     indices: 
