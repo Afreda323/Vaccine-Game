@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     public float damage;
     public float speed;
     public float timeBetweenAttacks;
+    public GameObject spawnParticles;
 
     [HideInInspector]
     public Transform player;
@@ -16,6 +17,7 @@ public class Enemy : MonoBehaviour
     public virtual void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        StartCoroutine(Spawn());
     }
 
     public void TakeDamage (float damage)
@@ -26,5 +28,21 @@ public class Enemy : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    IEnumerator Spawn()
+    {
+        yield return new WaitForSeconds(.01f);
+        Particles();
+    }
+
+    void Particles()
+    {
+        Instantiate(spawnParticles, transform.position, transform.rotation);
+    }
+
+    private void OnDestroy()
+    {
+        Particles();
     }
 }

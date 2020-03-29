@@ -395,6 +395,8 @@ MonoBehaviour:
   damage: 2
   speed: 1.5
   timeBetweenAttacks: 1
+  spawnParticles: {fileID: 6019173514245673808, guid: 7db1a3f53b603430ea69ed14ebe75bc1,
+    type: 3}
   player: {fileID: 0}
   minX: -6.93
   minY: -3.03
