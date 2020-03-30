@@ -9,6 +9,8 @@ public class Enemy : MonoBehaviour
     public float speed;
     public float timeBetweenAttacks;
     public GameObject spawnParticles;
+    public int dropChance;
+    public GameObject[] drops;
 
     [HideInInspector]
     public Transform player;
@@ -44,5 +46,11 @@ public class Enemy : MonoBehaviour
     private void OnDestroy()
     {
         Particles();
+        bool shouldSpawn = Random.Range(0, 101) <= dropChance;
+        if (shouldSpawn)
+        {
+            GameObject randomWeapon = drops[Random.Range(0, drops.Length)];
+            Instantiate(randomWeapon, transform.position, transform.rotation);
+        }
     }
 }
