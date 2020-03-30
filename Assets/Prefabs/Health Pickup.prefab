@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7293739697239873614
+--- !u!1 &5124956526537004979
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,38 +8,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1767103141424126577}
-  - component: {fileID: 8329976909786600520}
-  - component: {fileID: 3400323076414559255}
-  - component: {fileID: 2366533093674792457}
+  - component: {fileID: 4410358540445966312}
+  - component: {fileID: 884570548863421774}
+  - component: {fileID: 2812329169475200621}
+  - component: {fileID: 862377094604314603}
   m_Layer: 0
-  m_Name: Projectile 3
+  m_Name: Health Pickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1767103141424126577
+--- !u!4 &4410358540445966312
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7293739697239873614}
+  m_GameObject: {fileID: 5124956526537004979}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.1435374, y: -1.4098936, z: 0}
-  m_LocalScale: {x: 0.06, y: 0.06, z: 1}
+  m_LocalPosition: {x: -3.5829437, y: 0.5153246, z: 0}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &8329976909786600520
+--- !u!212 &884570548863421774
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7293739697239873614}
+  m_GameObject: {fileID: 5124956526537004979}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -70,25 +70,38 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2580334524875519559, guid: 26b785cee5cf149689a9320e14d66cb0,
+  m_Sprite: {fileID: 4432793351920879750, guid: 1e046cc40d81f41ea8aa83504279e347,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5.8299994, y: 9.072605}
+  m_Size: {x: 8.619999, y: 12.873697}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &3400323076414559255
+--- !u!114 &2812329169475200621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5124956526537004979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7898b03c479c48969867d6b4e4ea1f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healAmount: 1
+--- !u!61 &862377094604314603
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7293739697239873614}
+  m_GameObject: {fileID: 5124956526537004979}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -99,29 +112,12 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.8299994, y: 9.072605}
-    newSize: {x: 5.8299994, y: 9.072605}
+    oldSize: {x: 8.619999, y: 12.873697}
+    newSize: {x: 8.619999, y: 12.873697}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.8299994, y: 9.072605}
+  m_Size: {x: 8.619999, y: 12.873697}
   m_EdgeRadius: 0
---- !u!114 &2366533093674792457
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7293739697239873614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3577c485f6e8b444ab51ec8701713d8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
-  lifetime: 3
-  particles: {fileID: 6019173514245673808, guid: 6057b7453ae234f5e9fe5143a0f186fb,
-    type: 3}
-  damage: 5

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public float health;
-    public float damage;
+    public int health;
+    public int damage;
     public float speed;
     public float timeBetweenAttacks;
     public GameObject spawnParticles;
@@ -22,7 +22,7 @@ public class Enemy : MonoBehaviour
         StartCoroutine(Spawn());
     }
 
-    public void TakeDamage (float damage)
+    public void TakeDamage (int damage)
     {
         health -= damage;
 

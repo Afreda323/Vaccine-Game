@@ -22,33 +22,21 @@ public class MeleeEnemy : Enemy
         {
             if (Vector2.Distance(transform.position, player.position) > stopDistance)
             {
-                StopAttacking();
                 transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
             } else
             {
                 if (Time.time > _timeBetweenAttacks)
                 {
-                    Attack();
+                    animator.SetTrigger("attack");
                     _timeBetweenAttacks = Time.time + timeBetweenAttacks;
                 }
             }
-        } else
-        {
-            StopAttacking();
         }
     }
 
-    void Attack()
+    public void Attack()
     {
-        animator.SetBool("isAttacking", true);
         player.GetComponent<Player>().TakeDamage(damage);
     }
 
-    void StopAttacking ()
-    {
-        if (animator.GetBool("isAttacking") == true)
-        {
-            animator.SetBool("isAttacking", false);
-        }
-    }
 }

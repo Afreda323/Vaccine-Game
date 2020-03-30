@@ -423,6 +423,8 @@ MonoBehaviour:
   timeBetweenAttacks: 5
   spawnParticles: {fileID: 6019173514245673808, guid: 0c4ce4540b064492b8cea22c43fd6157,
     type: 3}
+  dropChance: 0
+  drops: []
   player: {fileID: 0}
   stopDistance: 1
 --- !u!95 &5548071922680366476

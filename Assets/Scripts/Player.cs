@@ -1,12 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
     public float speed;
     public Animator animator;
-    public float health;
+    public int health;
+    public Image[] hearts;
+    public Sprite fullHeart;
+    public Sprite emptyHeart;
 
     Rigidbody2D rb;
     Vector2 moveAmount;
@@ -16,6 +20,7 @@ public class Player : MonoBehaviour
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
         animator = gameObject.GetComponent<Animator>();
+        UpdateHealthUI(health);
     }
 
     // Update is called once per frame
@@ -37,10 +42,10 @@ public class Player : MonoBehaviour
         rb.MovePosition(rb.position + moveAmount * Time.fixedDeltaTime);
     }
 
-    public void TakeDamage(float damage)
+    public void TakeDamage(int damage)
     {
         health -= damage;
-
+        UpdateHealthUI(health);
         if (health <= 0)
         {
             Destroy(gameObject);
@@ -51,5 +56,31 @@ public class Player : MonoBehaviour
     {
         Destroy(GameObject.FindGameObjectWithTag("Weapon"));
         Instantiate(weapon, new Vector3(transform.position.x - .2f, transform.position.y, transform.position.z), transform.rotation, transform);
+    }
+
+    void UpdateHealthUI (int currHealth)
+    {
+        for(int i = 0; i < hearts.Length; i++)
+        {
+            if (i < currHealth)
+            {
+                hearts[i].sprite = fullHeart;
+            }
+            else
+            {
+                hearts[i].sprite = emptyHeart;
+            }
+        }
+    }
+    public void Heal(int healAmount)
+    {
+        if (health + healAmount >= 5)
+        {
+            health = 5;
+        } else
+        {
+            health += healAmount;
+        }
+        UpdateHealthUI(health);
     }
 }

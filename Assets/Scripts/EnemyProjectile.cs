@@ -6,7 +6,7 @@ public class EnemyProjectile : MonoBehaviour
 {
     public float speed;
     public GameObject particles;
-    public float damage;
+    public int damage;
 
     // Update is called once per frame
     void Update()

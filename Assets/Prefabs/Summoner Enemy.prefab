@@ -392,7 +392,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 5
-  damage: 2
+  damage: 1
   speed: 1.5
   timeBetweenAttacks: 1
   spawnParticles: {fileID: 6019173514245673808, guid: 7db1a3f53b603430ea69ed14ebe75bc1,
@@ -402,6 +402,7 @@ MonoBehaviour:
   - {fileID: 7274958006494709909, guid: 3a16e0dfb17054a319781d5e17d47013, type: 3}
   - {fileID: 4086743632502591989, guid: 95455481b18e041a1bb4ac773467d28d, type: 3}
   - {fileID: 2264686221152119461, guid: a10c1942e9b874404bbf5fa4458c69ad, type: 3}
+  - {fileID: 5124956526537004979, guid: 6ab7a5cc67c814851923f8c8e9774a35, type: 3}
   player: {fileID: 0}
   minX: -6.93
   minY: -3.03
