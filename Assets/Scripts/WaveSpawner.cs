@@ -15,6 +15,8 @@ public class WaveSpawner : MonoBehaviour
     public Wave[] waves;
     public Transform[] spawnPoints;
     public float timeBetweenWaves;
+    public Transform bossSpawn;
+    public Enemy boss;
 
     Wave currentWave;
     int currentWaveIndex;
@@ -75,7 +77,7 @@ public class WaveSpawner : MonoBehaviour
 
             } else
             {
-                print("We Done");
+                Instantiate(boss, bossSpawn.position, bossSpawn.rotation);
             }
         } 
     }
